@@ -1,10 +1,21 @@
-var express = require('express'),
+// var http = require('http');
+// var https = require('https');
+// var fs = require("fs");
+express = require('express'),
   app = express(),
   port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
   Task = require('./api/models/toDoListModel'), //created model loading here
   bodyParser = require('body-parser');
+  // var options = {
+
+  //   key: fs.readFileSync("mockserver.key"),
+    
+  //   cert: fs.readFileSync("mockserver.crt")
+    
+  //   }
   
+  // var server = https.createServer(options,app);
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/Tododb'); 
