@@ -2,13 +2,9 @@
   "name": "todolistapi",
   "version": "1.0.0",
   "description": "api test",
-  "engines": {
-    "node": "8.9.1"
-  },
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "node test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -25,13 +21,10 @@
     "url": "https://github.com/jessengrg/API/issues"
   },
   "homepage": "https://github.com/jessengrg/API#readme",
-  "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.16.3"
-  },
   "devDependencies": {
-    "nodemon": "^1.18.2",
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
+    "nodemon": "^1.18.2"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
   }
 }
